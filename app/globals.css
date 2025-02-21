@@ -2,20 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.flex {
+    display: flex;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.justify-center {
+    justify-content: center;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.space-x-4 {
+    gap: 1rem; /* Adjust the space between cards if necessary */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-compact {
+    padding: 1rem;
+}
+
+.bg-base-100 {
+    background-color: #f8fafc; /* Example background color */
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.shadow-xl {
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }

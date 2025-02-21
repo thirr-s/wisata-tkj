@@ -7,6 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    daisyui: {
+      themes: ["light", "dark", "cupcake"],
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 } satisfies Config;
