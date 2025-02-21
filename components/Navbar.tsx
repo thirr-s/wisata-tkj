@@ -1,19 +1,25 @@
+import Theme from "./Theme";
+import Link from "next/link";
+
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar ">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">TKJ</a>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal ">
           <li>
-            <a>Sejarah</a>
+            <Link href="#sejarah">Sejarah</Link>
           </li>
           <li>
-            <a>Wisata</a>
+            <Link href="#card">Wisata</Link>
           </li>
           <li>
-            <a>Jam Operasional</a>
+            <Link href="#jam-operasional">Jam Operasional</Link>
+          </li>
+          <li>
+            <Theme />
           </li>
         </ul>
       </div>
