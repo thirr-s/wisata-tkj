@@ -1,11 +1,16 @@
+import Image from "next/image";
 export default function Card() {
   return (
     <div className="mt-10 pt-10 flex flex-col items-center justify-center mb-4 space-y-4 md:flex-row md:space-y-0 md:space-x-4">
       <div className="card card-compact w-96 shadow-xl">
         <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
+          <Image
+            src="/images/card1.jpeg"
+            alt="Card-1"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }} // optional
           />
         </figure>
         <div className="card-body">
@@ -15,9 +20,13 @@ export default function Card() {
       </div>
       <div className="card card-compact w-96 shadow-xl">
         <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
+          <Image
+            src="/images/card2.jpeg"
+            alt="Card-2"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }} // optional
           />
         </figure>
         <div className="card-body">
@@ -27,9 +36,13 @@ export default function Card() {
       </div>
       <div className="card card-compact w-96 shadow-xl">
         <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
+          <Image
+            src="/images/card3.jpeg"
+            alt="Card-3"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }} // optional
           />
         </figure>
         <div className="card-body">
