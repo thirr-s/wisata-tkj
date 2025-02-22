@@ -6,7 +6,7 @@ export default function Card() {
       <div className="card card-compact w-96 shadow-xl">
         <figure>
           <Image
-            src="/images/card1.jpeg"
+            src="/images/card2.jpeg"
             alt="Card-1"
             width={0}
             height={0}

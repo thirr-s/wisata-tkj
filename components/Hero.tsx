@@ -5,10 +5,12 @@ export default function Hero() {
       <div className="hero-content flex-col lg:flex-row">
         <Image
           src="/images/cani.png"
-          width={500}
-          height={700}
+          width={0}
+          height={0}
+          sizes="100vw"
           quality={100}
           alt="Candi"
+          style={{ width: "100%", height: "100%" }} // optional
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>

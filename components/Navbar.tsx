@@ -12,9 +12,9 @@ export default function Navbar() {
   };
   return (
     <div>
-      <div className="navbar ">
+      <div className="navbar">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">TKJ</a>
+          <a className="hidden sm:block btn btn-ghost text-xl">TKJ</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal ">
