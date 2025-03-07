@@ -15,14 +15,14 @@ export default function Card() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title">Gallery 1</h2>
+          <p>Foto Candi Prambanan dari bla bla bla bla</p>
         </div>
       </div>
       <div className="card card-compact w-96 shadow-xl">
         <figure>
           <Image
-            src="/images/card2.jpeg"
+            src="/images/Candi2.jpg"
             alt="Card-2"
             width={0}
             height={0}
@@ -31,14 +31,14 @@ export default function Card() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title">Gallery 2</h2>
+          <p>Foto Candi Prambanan dari bla bla bla bla</p>
         </div>
       </div>
       <div className="card card-compact w-96 shadow-xl">
         <figure>
           <Image
-            src="/images/card2.jpeg"
+            src="/images/Candi1.jpg"
             alt="Card-3"
             width={0}
             height={0}
@@ -47,8 +47,8 @@ export default function Card() {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title">Gallery 3</h2>
+          <p>Foto Candi Prambanan dari bla bla bla bla</p>
         </div>
       </div>
     </div>
