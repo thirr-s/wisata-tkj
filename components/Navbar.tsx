@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Theme from "./Theme";
 
 export default function Navbar() {
@@ -12,14 +13,16 @@ export default function Navbar() {
   };
   return (
     <div>
-      <div className="navbar">
+      <div className="navbar h-16 lg:h-20 text-base lg:text-lg">
         <div className="flex-1">
-          <a className="hidden sm:block btn btn-ghost text-xl">TKJ</a>
+          <Link href={"/"} className="hidden sm:block btn btn-ghost text-xl">
+            TKJ
+          </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal ">
+          <ul className="menu menu-horizontal">
             <li>
-              <a onClick={() => scrolltoHash("sejarah")}>Sejarah</a>
+              <Link href="/sejarah">Sejarah</Link>
             </li>
             <li>
               <a onClick={() => scrolltoHash("card")}>Wisata</a>
